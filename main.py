@@ -8,7 +8,7 @@ def main():
 		print "Welcome To ADVENTUE ADVENTURE ADVENTURE!!"
 		time.sleep(2)
 		user_name = raw_input("Please State Your Name: ")
-		print "Hello there " + user_name "! Nice to meet you!"
+		print "Hello there " + user_name + "! Nice to meet you!"
 		time.sleep(2)
 		print "There are four classes..."
 		time.sleep(1)
