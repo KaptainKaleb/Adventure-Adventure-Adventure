@@ -13,14 +13,17 @@ def main():
 	time.sleep(2)
 	print "There are four classes..."
 	time.sleep(1)
-	print "The Knight class, The Wizard class, The Monk class, and the Theif class!"
+	print "The Knight class, The Wizard class, The Monk class, and the Thief class!"
 	time.sleep(3)
 	def check_class():
+		global user_class
 		user_class = raw_input("Please choose your class: ")
-		class_list = ['Knight', 'Wizard', 'Monk', 'Theif']
+		class_list = ['Knight', 'Wizard', 'Monk', 'Thief']
 		if user_class in class_list:
 			time.sleep(3)
 			print "Wait..... This cant be"
+			time.sleep(3)
+			print "You are " + user_name + " of the " + user_class + "s?"
 			time.sleep(3)
 			print "Is this really you???"
 			time.sleep(3)
@@ -31,5 +34,7 @@ def main():
 			print "You've Entered Something Wrong! Please Try Again!"
 			user_class = raw_input("Please choose your class: ")
 			check_class()
+		return user_class
 	check_class()
 main()
+import chapter_one
