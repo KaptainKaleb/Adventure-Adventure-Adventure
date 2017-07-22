@@ -14,7 +14,7 @@ def main():
 			print "There are four classes..."
 			time.sleep(1)
 			print "The Knight class, The Wizard class, The Monk class, and the Theif class!"
-			class_list = ["Knight", "Wizard", "Monk", "Theif"]
+			class_list = ['Knight', 'Wizard', 'Monk', 'Theif']
 			time.sleep(3)
 			user_class = raw_input("Please choose your class: ")
 			for cal in class_list:
@@ -28,7 +28,9 @@ def main():
 					time.sleep(3)
 					print "Is this really you???"
 					time.sleep(3)
-	fake_load()
+					break
+				break
+	#fake_load()
 	create_man()
 main()
 
