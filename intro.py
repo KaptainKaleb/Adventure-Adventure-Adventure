@@ -17,20 +17,20 @@ def main():
 			class_list = ["Knight", "Wizard", "Monk", "Theif"]
 			time.sleep(3)
 			user_class = raw_input("Please choose your class: ")
-			if user_class != class_list:
-				print "You entered somehting wrong! Make sure you type in your class exactly how it is displayed!"
-			else:
-				time.sleep(3)
-				print "Wait..... This cant be"
-				time.sleep(3)
-				print user_name + " of the " + user_class + "s" + "????"
-				time.sleep(3)
-				print "Is this really you???"
-				time.sleep(3)
+			for cal in class_list:
+				if user_class != cal:
+					print "You entered somehting wrong! Make sure you type in your class exactly how it is displayed!"
+				else:
+					time.sleep(3)
+					print "Wait..... This cant be"
+					time.sleep(3)
+					print user_name + " of the " + user_class + "s" + "????"
+					time.sleep(3)
+					print "Is this really you???"
+					time.sleep(3)
 	fake_load()
 	create_man()
 main()
-		
 
 
 
