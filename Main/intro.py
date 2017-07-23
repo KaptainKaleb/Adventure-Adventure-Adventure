@@ -13,7 +13,7 @@ def main():
 	time.sleep(2)
 	print "There are four classs..."
 	time.sleep(1)
-	print "The Class1 Class1, The Class2 class2, The Class3 Class3, and the Class4 Class!"
+	print "The Class1 Class, The Class2 Class, The Class3 Class, and the Class4 Class!"
 	time.sleep(3)
 	def check_class():
 		global user_class
