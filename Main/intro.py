@@ -1,12 +1,12 @@
 def main():
 	import time
-	def fake_load():
-		print "Loading"
-		time.sleep(3)
-		print "Just a little while longer!"
-		time.sleep(2)
-	fake_load()
-	print "Welcome To ADVENTUE ADVENTURE ADVENTURE!!"
+	#def fake_load():
+	#	print "Loading"
+	#	time.sleep(3)
+	#	print "Just a little while longer!"
+	#	time.sleep(2)
+	#fake_load()
+	print "Welcome To ADVENTURE ADVENTURE ADVENTURE!!"
 	time.sleep(2)
 	user_name = raw_input("Please State Your Name: ")
 	print "Hello there " + user_name + "! Nice to meet you!"
@@ -36,5 +36,9 @@ def main():
 			check_class()
 		return user_class
 	check_class()
-main()
+if __name__ == "__main__":
+	main()
+
+# We're going to have to have one main file each chapter, and try to avoid importing in circles
+
 import chapter_one
