@@ -13,7 +13,7 @@ def main():
 	time.sleep(2)
 	print "There are four classes..."
 	time.sleep(1)
-	print "The Knight class, The Wizard class, The Monk class, and the Theif class!"
+	print "The Knight class, The Wizard class, The Monk class, and the Thief class!"
 	time.sleep(3)
 	def check_class():
 		user_class = raw_input("Please choose your class: ")
