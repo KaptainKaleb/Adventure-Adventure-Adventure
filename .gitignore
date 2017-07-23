@@ -1,3 +1,3 @@
+# This file ignores the stuff that you don't want to track automatically, like the compiled python files
 
-Main/intro.pyc
-Main/chapter_one.pyc
+*.pyc
