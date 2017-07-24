@@ -41,6 +41,7 @@ def dialog00():
 	time.sleep(1)
 
 	#Weapon?
+	# The weapon will be implemented at the same time as the inventory system
 
 # We're going to have to have one main file for each chapter,
 # and try to avoid importing in circles

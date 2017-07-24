@@ -1,5 +1,5 @@
 from time import sleep
-from chp0 import weapon #Weapon? Gonna put that in chapter 0? 
+from chp0 import weapon #Weapon? Gonna put that in chapter 0? # I guess I'll import it using my own method from the savegame.txt file
 
 def dialog00():
 	print "--In the Sewer--"
