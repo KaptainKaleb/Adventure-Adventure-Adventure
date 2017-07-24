@@ -29,6 +29,11 @@ namespace AAA
                     return 0;
                 else if (mainClass.StartsWith("t|T"))
                     return 1;
+                else if (mainClass.StartsWith("r|R"))
+                    return 2;
+                else if (mainClass.StartsWith("m|M"))
+                    return 3;
+                else return 4;
             }
         }
     }
