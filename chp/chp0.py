@@ -40,5 +40,7 @@ def dialog00():
 	print "...."
 	time.sleep(1)
 
+	#Weapon?
+
 # We're going to have to have one main file for each chapter,
 # and try to avoid importing in circles
