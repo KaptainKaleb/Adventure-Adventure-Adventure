@@ -10,6 +10,8 @@ def main():
 		savegame.close()
 	elif save.check() != True:
 		save.new(intro.get_user(),intro.get_class())
+	
+	chp1.dialog00()
 
 if __name__ == "__main__":
 	main()
