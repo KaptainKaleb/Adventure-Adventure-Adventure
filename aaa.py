@@ -11,6 +11,7 @@ def main():
 	elif save.check() != True:
 		save.new(intro.get_user(),intro.get_class())
 	
+	chp0.dialog00()
 	chp1.dialog00()
 
 if __name__ == "__main__":

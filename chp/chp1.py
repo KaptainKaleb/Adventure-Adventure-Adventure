@@ -1,5 +1,5 @@
 from time import sleep
-from chp0 import weapon
+from chp0 import weapon #Weapon? Gonna put that in chapter 0? 
 
 def dialog00():
 	print "--In the Sewer--"
