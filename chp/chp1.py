@@ -11,5 +11,5 @@ def dialog00():
 	print "*You venture a few steps in, and you immediately spot a giant rat*"
 	sleep(1)
 
-	print "*Preparing yourself for combat, you approach the rat with " + weapon + " drawn*"
+	print "*Preparing yourself for combat, you approach the rat with drawn*"
 	sleep(2)
