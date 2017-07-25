@@ -22,6 +22,9 @@ def dialog00():
 	print "*The innkeeper shows you a hidden door at the back of the tavern*"
 	time.sleep(2)
 
+        print "What you did... It changed me... Well, it changed everything! A revolution has begun."
+        time.sleep(2)
+
 	print "The guards are after your head after the incident at [PLACE]. You need to get away from here, and quickly."
 	time.sleep(2)
 
