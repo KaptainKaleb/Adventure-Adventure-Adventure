@@ -7,11 +7,11 @@ def check():
 	except:
 		return False
 
-def new(usr, cls):
+def new(user, clss): #TODO
 	newsave = open("savegame.txt", "w")
 
-	newsave.write("usr="+usr)	# adds username
-	newsave.write("cls="+cls)	# adds class
-	newsave.write("pgs=1")	# adds default progress
+	newsave.write("user="+user)	# adds username
+	newsave.write("clss="+str(clss))# adds class
+	newsave.write("prgs=1")		# adds default progress
 
 	newsave.close()

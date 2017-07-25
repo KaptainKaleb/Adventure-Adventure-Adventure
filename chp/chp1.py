@@ -1,6 +1,6 @@
 import sys
 from time import sleep
-from user import weapon #Weapon? Gonna put that in chapter 0? # I guess I'll import it using my own method from the savegame.txt file
+#from user import weapon #Weapon? Gonna put that in chapter 0? # I guess I'll import it using my own method from the savegame.txt file
 
 sys.path.insert(0, "/mnt/c/Users/James/Documents/projects/Adventure-Adventure-Adventure")
 

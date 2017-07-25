@@ -21,25 +21,21 @@ def get_class():
     print "The Knight class, The Wizard class, The Monk class, and the Thief class!"
     time.sleep(3)
 
-    user_shorthand = raw_input("Please choose your class (Please use the first letter of each class): ")
-    user_shorthand.upper
-    
-    class_list = ['Knight', 'Wizard', 'Monk', 'Thief']
-    shorthand_list = ['K', 'W', 'M', 'T']
+    user_choice = raw_input("Please choose your class: ")
+    user_choice = str.upper(user_choice)
 
-    if user_shorthand in shorthand_list:
-        if user_shorthand == 'K':
-            user_class = 'Knight'
-        elif user_shorthand == 'W':
-            user_class = 'Wizard'
-        elif user_shorthand == 'M':
-            user_class = 'Monk'
-        elif user_shorthand == 'T':
-            user_class = 'Thief'
+    class_list = ['K', 'W', 'M', 'T']
+
+    if user_choice[0] in class_list:
+        if user_choice[0] == "K":
+            return 0
+        elif user_choice[0] == 'W':
+            return 1
+        elif user_choice[0] == 'M':
+            return 2
+        elif user_choice[0] == 'T':
+            return 3
         else:
             get_class()
-
-    #if user_class in class_list:
-        #return user_class
-    #else:
-        #get_class()
+    else:
+        get_class()
