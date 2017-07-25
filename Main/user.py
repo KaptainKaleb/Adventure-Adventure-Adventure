@@ -11,6 +11,3 @@ class User(object):
         
         self.username = username
         self.userclass = userclass
-
-
-
