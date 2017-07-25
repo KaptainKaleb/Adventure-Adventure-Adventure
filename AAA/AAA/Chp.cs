@@ -37,4 +37,15 @@ namespace AAA
             }
         }
     }
+
+    namespace Chp1
+    {
+        class Dialog
+        {
+            public static void Part1()
+            {
+
+            }
+        }
+    }
 }
