@@ -57,7 +57,7 @@ namespace AAA
                 {
                     sw.WriteLine("name=" + username);
                     sw.WriteLine("clss=" + clss);
-                    for (int i = 1; i < 20; i++)
+                    for (int i = 2; i < 20; i++)
                         sw.WriteLine(saveS[i]);
                 }
             }
