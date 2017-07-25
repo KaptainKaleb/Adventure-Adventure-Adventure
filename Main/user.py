@@ -1,7 +1,8 @@
-"""Defines user object"""
+
 
 
 class User(object):
+    """Defines user object"""
     
     health = 100
     inventory = []
