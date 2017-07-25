@@ -36,3 +36,7 @@ def update():
         pgrs = savegame.readline(18)             # Progress
         global htpt
         htpt = savegame.readline(19)             # Hitpoints (Health)
+	savegame.close()
+
+if __name__ == "__main__":
+	update()
