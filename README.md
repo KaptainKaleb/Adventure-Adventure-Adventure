@@ -1,8 +1,5 @@
 # Adventure Adventure Adventure
 Attempting to make a simple, text based, adventure game!
-I'm going to try to do it in Python.
-Very new at coding, I'm not very good.
-This is just for fun and learning.
 
 # Plan
 ## Story
