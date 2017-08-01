@@ -1,36 +1,36 @@
-from aaa import userInfo
 from lib.save import check
 
-if check() == true:
-    global name
-    name = userInfo[0]              # Character Name
-    global clss
-    clss = userInfo[1]              # Character Class
-    global wpn1
-    wpn1 = userInfo[2]              # Weapon 1 (Main)
-    global wpn2
-    wpn2 = userInfo[3]              # Weapon 2 (Offhand)
-    global inv
-    inv[0] = userInfo[4]            # Inventory 1
-    inv[1] = userInfo[5]            # Inventory 2
-    inv[2] = userInfo[6]            # Inventory 3
-    inv[3] = userInfo[7]            # Inventory 4
-    inv[4] = userInfo[8]            # Inventory 5
-    inv[5]= userInfo[9]             # Inventory 6
-    global lvl
-    lvl[0] = userInfo[10]           # Main Level
-    lvl[1] = userInfo[11]           # Fighting Level
-    lvl[2] = userInfo[12]           # Speech Level
-    lvl[3] = userInfo[13]           # Crafting Level
-    lvl[4] = userInfo[14]           # Agility Level
+class Character():
+    def __init__(self, pos, name, level):
+        """
+            Represents any character(npc or pc), actual characters inherits from this base class
 
-    if clss == 3:
-        global spl
-        spl[0] = userInfo[15]       # Spell 1
-        spl[1] = userInfo[16]       # Spell 2
-        spl[2] = userInfo[17]       # Spell 3
+        :param pos: position as [x,y]
+        :param name: string
+        :param level: integer( or list of integers ? )
+        """
+        self.name = name
+        self.level = level
+        self.pos = pos
 
-    global pgrs
-    pgrs = userInfo[18]             # Progress
-    global htpt
-    htpt = userInfo[19]             # Hitpoints (Health)
+class Player(Character):
+    def __init__(self, name, job, level, pos, stats):
+        """
+            Represents a playing Character
+
+        :param job: class/job of the character TODO:what are they?Strings? Ints? Enum members?
+        :param level: integer or list of integers
+        :param pos: position as [x,y]
+        :param name: string
+        :param stats: list of integers? Dictionnary ? like {'strength':5, 'agility':12...}
+        """
+        super().__init__(pos, name, level)
+        self.job=job
+        self.stats=stats #TODO:What stats and how are they set?
+        self.spells=[]
+        self.inventory=[] #TODO:either an Inventory object, or just a list
+        self.weapon="Fists"
+        self.armor="Dirty shirt"
+        self.progress=0
+        self.health=100  #TODO:How much
+        self.stamina=100 #TODO:How much?

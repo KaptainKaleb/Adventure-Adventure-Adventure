@@ -1,2 +1,2 @@
-from chp0 import *
-from chp1 import *
+from chp.chp0 import *
+from chp.chp1 import *
