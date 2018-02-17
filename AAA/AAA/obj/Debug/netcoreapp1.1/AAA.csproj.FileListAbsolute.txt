@@ -1,9 +1,0 @@
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\bin\Debug\netcoreapp1.1\AAA.deps.json
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\bin\Debug\netcoreapp1.1\AAA.runtimeconfig.json
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\bin\Debug\netcoreapp1.1\AAA.runtimeconfig.dev.json
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\bin\Debug\netcoreapp1.1\AAA.dll
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\bin\Debug\netcoreapp1.1\AAA.pdb
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\obj\Debug\netcoreapp1.1\AAA.csprojResolveAssemblyReference.cache
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\obj\Debug\netcoreapp1.1\AAA.AssemblyInfo.cs
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\obj\Debug\netcoreapp1.1\AAA.dll
-C:\Users\James\Documents\projects\Adventure-Adventure-Adventure\AAA\AAA\obj\Debug\netcoreapp1.1\AAA.pdb
